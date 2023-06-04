@@ -1,23 +1,45 @@
 #home-container {
-    padding-left: 15%;
+  margin: 0 5%;
+  width: 90%;
+  height: 100%;
+}
+
+#home-container :not(:first-child) {
+    padding-left: 20px;
 }
 
 .home-greeting {
-    font-family: Inter;
-    font-style: Regular;
-    font-size: 19px;
-    color: #0F85F2;
+  font-style: Regular;
+  font-size: 19px;
+  color: #0f85f2;
+  font-weight: 500;
 }
 
 h1 {
-    font-size: 45px;
-    text-align: Left;
-    margin-top: 10px;
-    margin-bottom: 10px;
+  font-size: 25px;
+  font-weight: 700;
+  text-align: Left;
+  margin-top: 5px;
+  margin-bottom: 5px;
 }
 
 p {
-    font-family: Inter;
-    font-style: Regular;
-    font-size: 19px;
+  font-family: Inter;
+  font-style: Regular;
+  font-size: 19px;
+}
+
+.intro-cont {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* background-color: pink; */
+}
+
+.brief-intro {
+    font-family: 'Inter';
+    font-style: normal;
+    font-size: 16px;
+    line-height: 24px;
+    word-wrap: normal;
 }
