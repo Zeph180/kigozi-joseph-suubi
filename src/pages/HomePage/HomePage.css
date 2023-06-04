@@ -1,7 +1,7 @@
 #home-container {
   margin: 0 5%;
   width: 90%;
-  height: 100vh;
+  height: 85vh;
 }
 
 .home-greeting {
@@ -9,6 +9,7 @@
   font-size: 19px;
   color: #0f85f2;
   font-weight: 500;
+  margin-top: 10%;
 }
 
 h1 {
@@ -38,7 +39,7 @@ p {
     font-size: 16px;
     line-height: 24px;
     word-spacing: 1px;
-    margin-bottom: 20%;
+    margin: 10% 0 20%;
 }
 
 .social-links {
