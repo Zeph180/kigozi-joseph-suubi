@@ -24,6 +24,7 @@ function App() {
 
 	// </BrowserRouter>
 		<div id="app-container">
+			<div className="bg-image"></div>
 			<Navbar />
 			<HomePage />
 			<AboutPage />

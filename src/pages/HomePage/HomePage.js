@@ -1,40 +1,48 @@
 import React from "react";
+import GitHubIcon from "../../assets/social-icons/GitHub";
+import LinkedInIcon from "../../assets/social-icons/LinkedIn";
+import MediumIcon from "../../assets/social-icons/Medium";
+import TwitterIcon from "../../assets/social-icons/Twitter";
 import "./HomePage.css";
 
 const HomePage = () => {
-	return (
-		<div id="home-container">
-			<p className="home-greeting">Hi, my name is</p>
-			<h1 className="my-name" style={{ color: "#0F85F2" }}>
-        Kigozi Joseph Suubi aka <i>Zeph</i>
-			</h1>
-			<h1 className="profession" style={{ color: "#9CC8E1" }}>
-        I am a front end developer.
-			</h1>
-			<p className="brief-intro" style={{ color: "#0F85F2" }}>
-        I am a software engineer spaecialising in building and ocassionally{" "}
-				<br />
-        designing pixel perfect user interfaces both for the web, android and{" "}
-				<br />
-        ios devices. I am focused on building inaccessible, human-centered
-				<br />
-        products in react and react native. And looking for a great team.
-			</p>
-			<button
-				style={{
-					width: "100px",
-					marginTop: "15px",
-					height: "35px",
-					fontSize: "17px",
-					fontWeight: "bold",
-					borderWidth: "0px",
-					backgroundColor: "#9CC8E1",
-				}}
-			>
-        Git hub
-			</button>
-		</div>
-	);
+  return (
+    <div id="home-container">
+      <p className="home-greeting">Hi, my name is</p>
+      <h1 className="my-name" style={{ color: "#0F85F2" }}>
+        Kigozi Joseph Suubi
+        <br /> aka <i>Zeph</i>
+      </h1>
+
+      <article className="intro-cont">
+        <p className="brief-intro" style={{ color: "#0F85F2" }}>
+          I am passionate about creating beautiful and user-friendly web
+          applications that enhance the user experience. With a strong
+          background in web development and design, I love to work on projects
+          that challenge me to explore new technologies and methodologies. Let's
+          connect and create amazing web experiences together.
+        </p>
+      </article>
+
+      <section className="social-links">
+        <a href="https://github.com/zeph180" className="social-link">
+          <GitHubIcon />
+        </a>
+        <a
+          href="https://linkedin.com/in/kigozi-joseph-suubi"
+          className="social-link"
+        >
+          <LinkedInIcon />
+        </a>
+        <a href="https://medium.com/@zeph180" className="social-link">
+          <MediumIcon />
+        </a>
+        <a href="https://twitter.com/richards_zeph" className="social-link">
+          <TwitterIcon />
+        </a>
+      </section>
+    </div>
+  );
 };
 
 export default HomePage;

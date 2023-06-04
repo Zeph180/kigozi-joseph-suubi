@@ -1,10 +1,19 @@
+
 /* backgroundImage: "url(./assets/darkBg.jpj)"
  */
 
- #app-container {
+ * {
+  font-family: 'Inter', sans-serif;
+ }
+
+ .bg-image {
    background-image: url(./assets/firstScreen.png);
    background-repeat: no-repeat;
-   background-attachment: fixed;
-   background-size: cover;
-   background-position: center;
+   background-size: 100vw 100vh;
+   background-size: fill;
+   width: 100vw;
+   height: 100vh;
+   position: fixed;
+   z-index: -1;
  }
+
