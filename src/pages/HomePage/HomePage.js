@@ -9,9 +9,7 @@ const HomePage = () => {
         Kigozi Joseph Suubi
         <br /> aka<i>Zeph</i>
       </h1>
-      {/* <h1 className="profession" style={{ color: "#9CC8E1" }}>
-        I am a front end developer.
-			</h1> */}
+
       <article className="intro-cont">
         <p className="brief-intro" style={{ color: "#0F85F2" }}>
           I am passionate about creating beautiful and user-friendly web
