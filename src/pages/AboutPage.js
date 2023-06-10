@@ -8,7 +8,7 @@ import TwitterIcon from "../assets/social-icons/Twitter";
 
 const AboutPage = () => {
   return (
-    <div id="home-container" style={{ height: "90vh"}}>
+    <div id="about" className="container" style={{ height: "90vh"}}>
       <SectionHeading sectionName="About me" />
       <div className="photo-cont" />
       <div>

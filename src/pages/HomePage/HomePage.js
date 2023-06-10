@@ -3,7 +3,7 @@ import "./HomePage.css";
 
 const HomePage = () => {
   return (
-    <div id="home-container">
+    <div id="home-container" className="container">
       <p className="home-greeting">Hi, my name is</p>
       <h1 className="my-name" style={{ color: "#0F85F2" }}>
         Kigozi Joseph Suubi!
