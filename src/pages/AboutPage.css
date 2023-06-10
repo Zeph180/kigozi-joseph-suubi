@@ -1,0 +1,15 @@
+.sec-heading-cont {
+  display: flex;
+  align-items: center;
+}
+
+.sec-heading {
+  color: #9CC8E1;
+}
+
+.heading-line {
+  border-top: 1px solid #9CC8E1;
+  ;
+  width: 50px;
+  margin: 10px 0 0 5px;
+}
