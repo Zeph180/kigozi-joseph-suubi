@@ -1,7 +1,7 @@
 #home-container {
   margin: 0 5%;
   width: 90%;
-  height: 85vh;
+  height: 60vh;
 }
 
 .home-greeting {
@@ -9,15 +9,16 @@
   font-size: 19px;
   color: #0f85f2;
   font-weight: 500;
-  margin-top: 10%;
+  margin-top: 30%;
 }
 
 h1 {
-  font-size: 25px;
+  font-size: 22px;
   font-weight: 700;
   text-align: Left;
-  margin-top: 5px;
+  margin-top: 10px;
   margin-bottom: 5px;
+  line-height: 30px;
 }
 
 p {
@@ -33,21 +34,3 @@ p {
     /* background-color: red; */
 }
 
-.brief-intro {
-    font-family: 'Inter';
-    font-style: normal;
-    font-size: 16px;
-    line-height: 24px;
-    word-spacing: 1px;
-    margin: 10% 0 20%;
-}
-
-.social-links {
-    display: flex;
-    flex-direction: row;
-    margin: auto;
-    justify-content: space-between;
-    width: 40%;
-    height: 10%;
-    margin-top: 10px;
-}

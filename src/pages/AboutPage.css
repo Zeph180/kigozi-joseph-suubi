@@ -1,6 +1,7 @@
 .sec-heading-cont {
   display: flex;
   align-items: center;
+  margin-bottom: 46px;
 }
 
 .sec-heading {
@@ -12,4 +13,34 @@
   ;
   width: 50px;
   margin: 10px 0 0 5px;
+}
+
+.photo-cont {
+  width: 100%;
+  height: 218px;
+  border-radius: 19px;
+  background-image: url(../assets//myPhoto.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.brief-intro {
+  font-family: 'Inter';
+  font-style: normal;
+  font-size: 16px;
+  line-height: 24px;
+  word-spacing: 1px;
+  margin: 15px 0;
+  color: #9CC8E1;
+}
+
+.social-links {
+  display: flex;
+  flex-direction: row;
+  margin: auto;
+  justify-content: space-between;
+  width: 40%;
+  height: 10%;
+  margin-top: 15%;
 }
