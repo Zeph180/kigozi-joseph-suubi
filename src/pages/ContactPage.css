@@ -1,0 +1,59 @@
+#contact {
+  margin-bottom: 40px;
+  height: fit-content;
+}
+
+.form-text {
+  text-align: center;
+  width: 80%;
+  margin:  0 10% 30px;
+}
+
+.glassy-container {
+  background: rgba(100, 149, 237, 0.02); /* Use shades/tints of blue with transparency */
+  border-radius: 10px;
+  backdrop-filter: blur(10px);
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+  overflow: hidden;
+  padding: 15px;
+}
+
+input, textarea {
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #0f85f2;
+  color: #9cc8e1;
+  background: rgba(100, 149, 237, 0.05);
+  font-size: 16px;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 15px;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  border: 0;
+}
+
+button {
+  color: #9cc8e1;
+  background: #007bff;;
+  padding: 10px 20px;
+  font-size: medium;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
