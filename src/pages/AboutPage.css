@@ -5,12 +5,11 @@
 }
 
 .sec-heading {
-  color: #9CC8E1;
+  color: #9cc8e1;
 }
 
 .heading-line {
-  border-top: 1px solid #9CC8E1;
-  ;
+  border-top: 1px solid #9cc8e1;
   width: 50px;
   margin: 10px 0 0 5px;
 }
@@ -26,13 +25,13 @@
 }
 
 .brief-intro {
-  font-family: 'Inter';
+  font-family: "Inter";
   font-style: normal;
   font-size: 16px;
   line-height: 24px;
   word-spacing: 1px;
   margin: 15px 0;
-  color: #9CC8E1;
+  color: #9cc8e1;
 }
 
 .social-links {
