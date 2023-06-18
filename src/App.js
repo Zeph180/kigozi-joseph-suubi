@@ -6,6 +6,7 @@ import Navbar from "./components/navbar/Navbar";
 import ProjectsPage from "./pages/ProjectsPage";
 // import ContactPage from "./pages/ContactPage";
 import "./App.css";
+import ToolsPage from "./pages/ToolsPage";
 // import darkBg from "./assets";
 
 function App() {
@@ -29,6 +30,7 @@ function App() {
 			<HomePage />
 			<AboutPage />
 			<ProjectsPage />
+			<ToolsPage />
 		</div>
 	);
 }

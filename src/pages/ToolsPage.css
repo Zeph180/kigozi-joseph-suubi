@@ -1,0 +1,36 @@
+.tools-container {
+  height: 80vh;
+  display: flex;
+  align-items: center;
+  /* justify-content: center; */
+  flex-wrap: wrap;
+  justify-content: space-between;
+  background: rgba(255, 255, 255, 0.06);
+  border-radius: 20px;
+  backdrop-filter: blur(10px);
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+  padding: 15px;
+}
+
+.tool-icon {
+  /* position: absolute; */
+  border-radius: 100%;
+  width: 100px;
+  height: 100px;
+  left: 115px;
+  /* top: 520px; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: radial-gradient(
+      54% 54% at 69.5% 32.5%,
+      rgba(10, 128, 237, 0.67) 0%,
+      rgba(0, 0, 0, 0.2881) 100%
+    ),
+    radial-gradient(
+      42.5% 42.5% at 78% 57.5%,
+      #2089ea 0%,
+      rgba(9, 58, 102, 0.18) 100%
+    );
+  box-shadow: -3px 2px 4px #020b14;
+}
